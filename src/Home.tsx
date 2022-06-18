@@ -481,6 +481,7 @@ const Home = (props: HomeProps) => {
             particleCount: 400,
             spread: 70,
             origin: {y: 0.6},
+            colors: ['#bb0000', '#ffffff']
         });
     }
 
@@ -650,7 +651,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Lone Wolves</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image

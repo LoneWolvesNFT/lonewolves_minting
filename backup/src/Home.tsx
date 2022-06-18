@@ -481,6 +481,7 @@ const Home = (props: HomeProps) => {
             particleCount: 400,
             spread: 70,
             origin: {y: 0.6},
+            colors: ['#bb0000', '#ffffff']
         });
     }
 
