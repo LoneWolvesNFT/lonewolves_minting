@@ -751,7 +751,7 @@ const Home = (props: HomeProps) => {
                                 )}
                             </MintButtonContainer>
                             <br/>
-                            <DoxxedLink href="https://discord.com/channels/971914961762791475/979204179266502716/987513729929334805" target="_blank">Doxxed By Alder Acadaemy</DoxxedLink>
+                            <DoxxedLink href="https://discord.com/channels/971914961762791475/979204179266502716/987513729929334805" target="_blank">Doxxed By Alder Academy</DoxxedLink>
                             {wallet && isActive && solanaExplorerLink &&
                               <SolExplorerLink href={solanaExplorerLink} target="_blank">View on
                                 Solscan</SolExplorerLink>}
