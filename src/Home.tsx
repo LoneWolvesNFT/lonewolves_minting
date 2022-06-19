@@ -141,6 +141,22 @@ const SolExplorerLink = styled.a`
   }
 `;
 
+const DoxxedLink = styled.a`
+  color: white;
+  border-bottom: 1px solid color: white;
+  font-weight: bold;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+  text-size-adjust: 100%;
+
+  :hover {
+    border-bottom: 2px solid color: white;
+  }
+`;
+
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -735,6 +751,7 @@ const Home = (props: HomeProps) => {
                                 )}
                             </MintButtonContainer>
                             <br/>
+                            <DoxxedLink href="https://discord.com/channels/971914961762791475/979204179266502716/987513729929334805" target="_blank">Doxxed By Alder Acadaemy</DoxxedLink>
                             {wallet && isActive && solanaExplorerLink &&
                               <SolExplorerLink href={solanaExplorerLink} target="_blank">View on
                                 Solscan</SolExplorerLink>}
