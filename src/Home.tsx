@@ -126,8 +126,8 @@ const MintButtonContainer = styled.div`
 `;
 
 const SolExplorerLink = styled.a`
-  color: var(--title-text-color);
-  border-bottom: 1px solid var(--title-text-color);
+  color: white;
+  border-bottom: 1px solid color: white;
   font-weight: bold;
   list-style-image: none;
   list-style-position: outside;
@@ -137,7 +137,7 @@ const SolExplorerLink = styled.a`
   text-size-adjust: 100%;
 
   :hover {
-    border-bottom: 2px solid var(--title-text-color);
+    border-bottom: 2px solid color: white;
   }
 `;
 
