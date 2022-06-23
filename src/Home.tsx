@@ -689,7 +689,7 @@ const Home = (props: HomeProps) => {
                                 renderer={renderEndDateCounter}
                               />}
                             {wallet && isActive &&
-                              <h3>TOTAL MINTED : 90 / {itemsAvailable}</h3>}
+                              <h3>TOTAL MINTED : 110 / {itemsAvailable}</h3>}
                             {wallet && isActive && <BorderLinearProgress variant="determinate"
                                                                          value={100 - (itemsRemaining * 100 / itemsAvailable)}/>}
                             <br/>
